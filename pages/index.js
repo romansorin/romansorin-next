@@ -9,16 +9,14 @@ export default function Home () {
           name='description'
           content='Roman Sorin is a full-stack software developer who builds, designs, and engineers custom solutions for businesses of all sizes.'
         />
-        <link
-          rel='stylesheet'
-          href='https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css'
-        />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className='container'>
         <div>
-          <h1 className='font-medium text-sm'>testing tailwind integration and absolute paths</h1>
+          <h1 className='font-medium text-sm'>
+            testing tailwind integration and absolute paths
+          </h1>
         </div>
       </main>
     </div>
