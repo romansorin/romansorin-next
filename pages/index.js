@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import LandingIllustration from '../components/LandingIllustration'
+import CalendarIcon from '../components/icons/CalendarIcon'
+import EmailIcon from '../components/icons/EmailIcon'
 import GithubIcon from '../components/icons/GithubIcon'
+import Head from 'next/head'
+import LandingIllustration from '../components/LandingIllustration'
 import LinkedinIcon from '../components/icons/LinkedinIcon'
 import PhoneIcon from '../components/icons/PhoneIcon'
 import TwitterIcon from '../components/icons/TwitterIcon'
-import EmailIcon from '../components/icons/EmailIcon'
-import CalendarIcon from '../components/icons/CalendarIcon'
+import styles from '../styles/Home.module.css'
 
 export default function Home () {
   return (
@@ -45,7 +45,7 @@ export default function Home () {
               </h2>
               <br />
               <h2 class='landing-subheading font-light'>
-                Email: rmaximsorin@gmail.com, roman@romansorin.com
+                Email: roman@romansorin.com
               </h2>
             </div>
             <nav class='level'>
